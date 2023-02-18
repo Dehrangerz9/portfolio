@@ -1,0 +1,15 @@
+.intro {
+    /**/
+}
+.intro__lista {
+    padding-left: 0;
+}
+
+.intro__lista__links{
+    list-style-type: none;
+    display: inline;
+}
+
+.intro__lista__links a {
+    text-decoration: none;
+}

@@ -1,0 +1,33 @@
+.cabecalho{
+    display: flex;
+    font-family: var(--raleway);
+    margin: auto;
+
+    justify-content: space-between;
+}
+
+.cabecalho__logomarca__logo{
+    margin: 0px;
+    padding:0px;
+}
+.cabecalho__logomarca{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    font-weight: bolder;
+}
+
+.cabecalho__link{
+    list-style-type: none;
+    display: inline-block;
+
+    margin-right: .7rem;
+    margin-left: .7rem;
+
+}
+
+.cabecalho__link a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}

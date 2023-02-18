@@ -1,0 +1,41 @@
+.skills {
+    text-align: center;
+    align-items: center;
+}
+
+.skills__linha {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 15rem;
+    margin: auto;
+
+    justify-content: center;
+}
+
+.skills__card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+
+    width: 10rem;
+    height: 10rem;
+    background-color: var(--branco);
+    
+    padding: 10px;
+    margin-left: 0.5rem;
+}
+
+.skills__card__imagem {
+    flex: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills__card__texto {
+    flex: 10%;
+    text-align: center;
+    font-weight: bolder;
+}
