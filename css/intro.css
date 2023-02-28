@@ -1,6 +1,21 @@
 .intro {
-    /**/
+    gap: 1rem;
 }
+
+.intro__introducao {
+    float: left;
+}
+
+.intro__introducao img{
+    width: 15rem;
+    height: auto;
+    border-radius: 50%;
+    
+    float: left;
+    margin-right: 10px;
+    
+}
+
 .intro__lista {
     padding-left: 0;
 }
@@ -8,8 +23,19 @@
 .intro__lista__links{
     list-style-type: none;
     display: inline;
+    margin-right: 5px;
+}
+
+.intro__lista__links a::after {
+    content: "↗";
 }
 
 .intro__lista__links a {
     text-decoration: none;
+}
+
+@media screen and (max-width:550px){
+    .intro__introducao img {
+        display: none;
+    }
 }
