@@ -4,6 +4,7 @@
     margin: auto;
 
     justify-content: space-between;
+    position: sticky;
 }
 
 .cabecalho__logomarca__logo{
@@ -32,6 +33,7 @@
 
     margin-right: .7rem;
     margin-left: .7rem;
+    padding: 10px;
 
 }
 
@@ -39,6 +41,22 @@
     text-decoration: none;
     color: black;
     font-weight: 400;
+}
+
+.cabecalho__link:hover{
+    background-color: var(--fonte-link);
+    border-radius: 40px;
+    transition-duration: 0.5s;
+    transition-property: all;
+
+}
+
+.cabecalho__link:hover a{
+   color: white;
+}
+
+.cabecalho__link a:hover {
+
 }
 
 

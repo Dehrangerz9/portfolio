@@ -32,6 +32,16 @@
 
 .intro__lista__links a {
     text-decoration: none;
+    color: var(--fonte-link);
+}
+
+.intro__lista__links a:hover {
+    text-decoration: underline;
+}
+
+.intro__lista__links a:visited {
+    text-decoration: none;
+    color: var(--fonte-cinza);
 }
 
 @media screen and (max-width:550px){
