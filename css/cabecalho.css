@@ -42,12 +42,22 @@
 }
 
 
+@media screen and (max-width:750px){
+    .cabecalho__logomarca__nome {
+        text-align: center;
+    }
+
+    .cabecalho__link {
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 600px) {
-    .cabecalho__link a {
+    .cabecalho__link  {
         display: none;
     }
 
-    #cabecalho__link__email a{
+    #cabecalho__link__email {
         display: inline;
     }
 
