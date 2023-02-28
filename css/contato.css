@@ -21,7 +21,7 @@
 }
 
 .contato__conteudo__formulario > form {
-    width: 65%;
+    width: 90%;
 
     display: flex;
     flex-direction: column;
@@ -46,4 +46,14 @@
     border: 1px solid var(--fonte-link);
     background-color: var(--fonte-link);
     color: var(--branco);
+}
+
+@media  screen and (max-width: 1400px) {
+    .contato__imagem {
+        display: none;
+    }
+
+    .contato__conteudo{
+        flex: 100%;
+    }
 }
