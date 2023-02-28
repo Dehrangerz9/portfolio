@@ -20,8 +20,7 @@
 <body>
     <header class="cabecalho container">
         <div class="cabecalho__logomarca">
-        <i class="fa-solid fa-code cabecalho__logomarca__logo"></i>
-        <p class="cabecalho__logomarca__nome">David Richard</p>
+            <p class="cabecalho__logomarca__nome">David Richard</p>
         </div>
         <nav class="cabecalho__navecao">
             <ul>
@@ -29,7 +28,7 @@
                 <li class="cabecalho__link"><a href="#">Skills</a></li>
                 <li class="cabecalho__link"><a href="#">Formação</a></li>
                 <li class="cabecalho__link"><a href="#">Projetos</a></li>
-                <li class="cabecalho__link"><a href="#">d.gabysandra91@gmail.com</a></li>
+                <li class="cabecalho__link" id="cabecalho__link__email"><a href="#">d.gabysandra91@gmail.com</a></li>
             </ul>
         </nav>
     </header>
@@ -179,7 +178,7 @@
                     <label for="assunto">Assunto</label>
                     <input type="text" name="assunto" id="assunto_id" class="formulario__input">
                     <label for="mensagem">Mensagem</label>
-                    <textarea name="mensagem" id="mensagem_id" cols="30" rows="10" class="formulario__input">
+                    <textarea name="mensagem" id="mensagem_id" cols="1" rows="10" class="formulario__input" style="resize:none;">
 
                     </textarea>
                     <input type="button" value="Enviar Mensagem" class="formulario__enviar">

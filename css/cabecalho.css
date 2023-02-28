@@ -17,6 +17,15 @@
     font-weight: bolder;
 }
 
+.cabecalho__logomarca__nome {
+    font-size: medium;
+}
+
+.cabecalho__navecao ul{
+    display: flex;
+    justify-content: center;
+}
+
 .cabecalho__link{
     list-style-type: none;
     display: inline-block;
@@ -30,4 +39,19 @@
     text-decoration: none;
     color: black;
     font-weight: 400;
+}
+
+
+@media screen and (max-width: 600px) {
+    .cabecalho__link a {
+        display: none;
+    }
+
+    #cabecalho__link__email a{
+        display: inline;
+    }
+
+    .cabecalho__logomarca__nome {
+        text-align: center;
+    }
 }
