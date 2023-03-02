@@ -13,10 +13,14 @@
 }
 
 .experiencia__projeto__thumbnail{
-    background-color: rebeccapurple;
     flex: 55%;
     width: 45rem;
-    height: 15rem;
+}
+
+.experiencia__projeto__thumbnail img {
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
 }
 
 .experiencia__projeto__conteudo{
