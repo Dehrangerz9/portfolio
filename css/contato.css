@@ -51,6 +51,12 @@
     color: var(--branco);
 }
 
+.formulario__enviar:hover{
+    cursor:pointer;
+    background-color: var(--branco);
+    color: var(--fonte-link);
+}
+
 @media  screen and (max-width: 1400px) {
     .contato__imagem {
         display: none;

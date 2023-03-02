@@ -65,6 +65,12 @@
     color: var(--fonte-link);
 }
 
+.experiencia__projeto__conteudo_botoes__repo:hover {
+    cursor:pointer;
+    background-color: var(--fonte-link);
+    color: var(--branco);
+}
+
 .experiencia__projeto__conteudo_botoes__demo {
     text-decoration: none;
     padding: 15px;
@@ -73,6 +79,12 @@
     color: var(--branco);
 
     margin-left: 1rem;
+}
+
+.experiencia__projeto__conteudo_botoes__demo:hover {
+    cursor:pointer;
+    background-color: var(--branco);
+    color: var(--fonte-link);
 }
 
 @media screen and (max-width: 975px) {
