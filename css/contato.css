@@ -1,12 +1,10 @@
 .contato {
-    width: 88vw;
+    width: 87vw;
     display: flex;
     gap: 1rem;
-
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: var(--azul-claro);
-
 }
 
 .contato__imagem {
