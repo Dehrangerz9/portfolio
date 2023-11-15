@@ -88,6 +88,19 @@
     color: var(--fonte-link);
 }
 
+
+.desativado {
+    background-color:gray;
+    border: 1px solid dimgray;
+    color: darkslategray;
+}
+
+.desativado:hover{
+    background-color:gray;
+    border: 1px solid dimgray;
+    color: darkslategray;
+    cursor:not-allowed;
+}
 @media screen and (max-width: 975px) {
 
 }
